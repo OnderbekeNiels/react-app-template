@@ -1,0 +1,14 @@
+:root {
+	--global-color-theme-hue: hue($theme-color);
+
+	--global-color-theme-100: hsl(var(---global-color-theme-hue), 100%, 86.67%);
+	--global-color-theme-200: hsl(var(---global-color-theme-hue), 100%, 80%);
+	--global-color-theme-300: hsl(var(---global-color-theme-hue), 100%, 73.33%);
+	--global-color-theme-400: hsl(var(---global-color-theme-hue), 100%, 66.67%);
+	--global-color-theme-500: hsl(var(---global-color-theme-hue), 100%, 60%);
+	--global-color-theme-600: hsl(var(---global-color-theme-hue), 100%, 52.75%);
+	--global-color-theme-700: hsl(var(---global-color-theme-hue), 100%, 38.6%);
+	--global-color-theme-800: hsl(var(---global-color-theme-hue), 100%, 25%);
+	--global-color-theme-900: hsl(var(---global-color-theme-hue), 100%, 16.67%);
+
+}
